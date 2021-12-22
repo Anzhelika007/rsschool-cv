@@ -17,6 +17,7 @@ ___2017-2019___
 > SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL  
 Retraining of personnel
 Information systems software / Software engineer
+
 ### Work
 
 * __2011-2013__  
