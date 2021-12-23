@@ -10,8 +10,7 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 615px;
-    padding: 0 10px;
+    max-width: 595px;
 }
 h1 {
     color: #FFF4F4;
@@ -49,6 +48,7 @@ a {
 }
 a:hover {
     color:aqua;
+    transform: scale(1.1);
 }
 /*header*/
 .header__wrapper {
@@ -74,7 +74,7 @@ a:hover {
     padding:200px 10px 20px 45px;
     position: relative;
     top: -183px;
-    height: 950px;
+    height: 1200px;
 }
 .info__title {
     background: #FFFFFF;
@@ -151,7 +151,7 @@ progress::-webkit-progress-bar {
 .aside__footer {
     position: relative;
     left: 45px;
-    top:160px;
+    top:400px;
 }
 .aside__footer a > img {
     height: 40px;
@@ -163,9 +163,9 @@ progress::-webkit-progress-bar {
     width: 355px;
     padding:200px 0px 20px 30px;
     position: relative;
-    top: -1133px;
+    top: -1380px;
     right: 0;
-    height: 950px;
+    height: 1197px;
 }
 .education__title {
     color: #FFFFFF;
@@ -242,6 +242,7 @@ progress::-webkit-progress-bar {
 .project__item {
     padding-top: 60px;
     position: relative;
+    margin-bottom: 30px;
 }
 .project__item__link {
     line-height: 30px;
@@ -255,6 +256,19 @@ progress::-webkit-progress-bar {
     top: 60px;
     left: 0;
 } 
+.code__project {
+    color: #FFFFFF;
+    position: relative;
+    right: 0;
+    margin-bottom: 15px;
+    background-color: var(--color-red);
+    border-radius: 30px 0px 0px 30px;
+}
+.project__code-wrapper{
+    position: relative;
+    left: -140px;
+    font-size: 10px;
+}
 .footer__summary {
     padding: 20px 45px 0;
     display: flex;
