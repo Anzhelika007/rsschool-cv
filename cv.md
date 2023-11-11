@@ -1,4 +1,4 @@
-## Anzhalika Turlak 
+# Anzhalika Turlak 
 **Junior Javascript developer**<br>
 **Batumi, Georgia| Age: 33 years** 
 
