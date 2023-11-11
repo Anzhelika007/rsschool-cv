@@ -55,7 +55,7 @@ I believe that my ability to learn and acquire new skills will help me become an
 ![RS school](Markdown_img/icons/rs_school.png "RS school") RS school
 > 2023 JS/FE Pre-School 2023Q2<br>
 
-![Stepik](Markdown_img/icons/academy.jpg "Stepik") ![Stepik](Markdown_img/certificates/stepik-certificate1.jpg "Stepik")  ![Stepik](Markdown_img/certificates/stepik-certificate2.jpg "Stepik") ![Stepik](Markdown_img/certificates/Turlak%20Anzhalika.png "Stepik") ![RS school](Markdown_img/certificates/certificateRS.pdf "RS school") 
+![Stepik](Markdown_img/icons/academy.jpg "Stepik") ![Stepik](Markdown_img/certificates/stepik-certificate1.jpg "Stepik")  ![Stepik](Markdown_img/certificates/stepik-certificate2.jpg "Stepik") ![Stepik](Markdown_img/certificates/Turlak%20Anzhalika.png "Stepik") ![RS school](Markdown_img/certificates/certificateRS.jpg "RS school") 
 
 
 ### Languages   
