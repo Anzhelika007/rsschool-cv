@@ -5,10 +5,10 @@
 ---
 
 ### Contacts  
-![](images/phone.png "Tel:") : +372 29 385 26 47, +995 59 111 93 05  
-![](images/telegramm.png "Telegramm:") : [@Lika_by](https://t.me/Lika_by)  
-![](images/emailRed.png "Email:") : [293852647@mail.ru](293852647@mail.ru)  
-![](images/linkedIn.png "LinkedIn:") : [Anzhalika Turlak](https://www.linkedin.com/in/anzhalika-turlak-b3307414a/)  
+![](Markdown_img/icons/phone.png "Tel:") : +372 29 385 26 47, +995 59 111 93 05  
+![](Markdown_img/icons/telegramm.png "Telegramm:") : [@Lika_by](https://t.me/Lika_by)  
+![](Markdown_img/icons/emailRed.png "Email:") : [293852647@mail.ru](293852647@mail.ru)  
+![](Markdown_img/icons/linkedIn.png "LinkedIn:") : [Anzhalika Turlak](https://www.linkedin.com/in/anzhalika-turlak-b3307414a/)  
 
 
 ### About me
@@ -22,11 +22,11 @@ I believe that my ability to learn and acquire new skills will help me become an
 
 ### Education
 
-|    Period     | Educational institution | Speciality |  
-| ------------- | :--- | :--- |  
-| `2008-2010`   | Gomel State Road Construction College | banking / Economist |  
-| `2011-2015`   | Belarusian Trade and Economic University of Consumer Cooperatives | Accounting analysis and audit / Economist |  
-| `2017-2019`   | SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL | Information systems software / Software engineer |  
+|      Period      | Educational institution | Speciality |  
+| :--- | :--- | :--- |  
+| `2008-2010` | Gomel State Road Construction College | banking / Economist |  
+| `2011-2015` | Belarusian Trade and Economic University of Consumer Cooperatives | Accounting analysis and audit / Economist |  
+| `2017-2019` | SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL | Information systems software / Software engineer |  
 
 ### Skills
    * HTML, CSS (Sass)  
