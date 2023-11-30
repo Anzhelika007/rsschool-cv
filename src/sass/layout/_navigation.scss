@@ -1,0 +1,93 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-shrink: 2;
+
+    &__item {
+        @include font-nav;
+        position: relative;
+
+        &-link {
+            display: inline-block;
+            color: $grey-middle;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateX(-60%);
+        }
+
+        &-link:hover {
+            @include font-nav($weight: 700);
+            color: $white;
+            transition: all 0.3s easy 0s;
+        }
+
+    }
+}
+
+.navigation__burger {
+    display: none;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+
+    &-icon {
+        display: block;
+        height: 2px;
+        width: 80%;
+        transform: scale(1);
+        background-color: $grey-middle;
+
+    }
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: $grey-middle;
+        transition: all .3s ease 0s;
+    }
+
+    &::before {
+        top: 0;
+    }
+
+    &::after {
+        bottom: 0;
+    }
+}
+
+//анимируем меню
+.navigation__burger.active .navigation__burger-icon {
+    transform: scale(0);
+}
+
+.navigation__burger.active::before {
+    top: 50%;
+    transform: rotate(-46deg) translate(0, -50%);
+}
+
+.navigation__burger.active::after {
+    top: 50%;
+    transform: rotate(46deg) translate(0, 50%);
+}
+
+.open {
+    display: flex !important;
+}
+
+@keyframes burger {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}

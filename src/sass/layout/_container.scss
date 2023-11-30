@@ -1,0 +1,18 @@
+.container-fluid {
+    max-width: $maket-width;
+    margin: auto;
+    padding: 0;
+}
+
+.container {
+    max-width: $content-width;
+    margin: auto;
+    padding: 0 10px;
+
+    @include media-laptop {
+        margin: auto;
+    }
+
+    @include media-mobile {}
+
+}

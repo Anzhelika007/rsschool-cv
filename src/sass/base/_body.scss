@@ -1,0 +1,31 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    @include font-base($size: 1.8rem, $height: 150%, $weight: 400);
+    color: $black-light;
+    background-color: $grey-light;
+    box-sizing: border-box;
+}
+
+h1 {
+    @include font-base($size: clamp(4.8rem, 7vw, 9.6rem), $height: 120%, $weight: 500);
+    color: $white;
+}
+
+h2 {
+    @include font-base($size: clamp(2.8rem, 5vw, 4.8rem), $height: 120%, $weight: 500);
+    color: $black-middle;
+}
+
+h3 {
+    @include font-base($size: 2.8rem, $height: 4.7rem, $weight: 500);
+    color: $black-middle;
+}
+
+h4 {
+    @include font-base($size: 2.4rem, $height: 2.9rem, $weight: 500);
+    color: $black-middle;
+}

@@ -1,0 +1,105 @@
+.header {
+    background: linear-gradient(to right,
+            black 53%,
+            $black-middle 53%);
+    background-size: 100%;
+    min-height: 100vh;
+    position: relative;
+
+
+    &__wrapper {
+        @extend %flex-column;
+        height: 100vh;
+        box-sizing: border-box;
+
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        position: relative;
+        width: 100%;
+
+        &-name {
+            color: $white;
+            line-height: 28px;
+            padding-left: 20px;
+        }
+
+        &-navigation {
+            width: 488px;
+            padding-bottom: 70px;
+            border-bottom: 1px solid $grey-middle;
+        }
+
+    }
+
+    &__img {
+        min-width: 53%;
+        max-height: 100%;
+        background-color: black;
+    }
+
+    &__img-img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__bottom {
+        min-width: 47%;
+        text-align: center;
+        padding-bottom: 171px;
+        position: relative;
+        height: 100%;
+
+
+        &-link {
+            @include font-base($size: clamp(24px, 5vw, 4.6rem), $height: 3.0rem, $weight: 500);
+            color: $black-middle;
+            display: inline-block;
+            width: clamp(160px, 30vw, 252px);
+            height: 79px;
+            padding: 25px 34px;
+            border-radius: 38px;
+            background-color: $orange;
+            margin-bottom: 22px;
+            position: absolute;
+            left: -50%;
+            top: clamp(40px, 10vh, 166px);
+            transform: translateX(50%);
+        }
+
+        &-title {
+            padding-bottom: 22px;
+            margin-bottom: 32px;
+            position: relative;
+            white-space: nowrap;
+            position: absolute;
+            right: 0;
+            top: clamp(20px, 30vh, 256px);
+        }
+
+        &-text {
+            color: $grey-middle;
+            margin-left: auto;
+            max-width: 525px;
+            padding: 20px 0;
+            white-space: wrap;
+            position: absolute;
+            left: 40px;
+            top: clamp(20px, 60vh, 385px);
+            text-align: start;
+            border-top: 1px solid $grey-middle;
+        }
+    }
+}
+
+.layout-2-column {
+    @include columns($width: 50%);
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+    min-height: calc(100vh - 172px);
+
+}
