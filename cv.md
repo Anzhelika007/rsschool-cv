@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 ## Anzhalika Turlak 
+=======
+# Anzhalika Turlak 
+>>>>>>> 85a2306716f2576e02cb558440f207800a187d15
 **Junior Javascript developer**<br>
 **Batumi, Georgia| Age: 33 years** 
 
 ---
 
 ### Contacts  
+<<<<<<< HEAD
 ![](images/phone.png "Tel:") : +372 29 385 26 47, +995 59 111 93 05  
 ![](images/telegramm.png "Telegramm:") [@Lika_by](https://t.me/Lika_by)  
 ![](images/emailRed.png "Email:") : [293852647@mail.ru](293852647@mail.ru)  
 ![](images/linkedIn.png "LinkedIn:") : [Anzhalika Turlak](https://www.linkedin.com/in/anzhalika-turlak-b3307414a/)  
+=======
+![](Markdown_img/icons/phone.png "Tel:") : +372 29 385 26 47, +995 59 111 93 05  
+![](Markdown_img/icons/telegramm.png "Telegramm:") : [@Lika_by](https://t.me/Lika_by)  
+![](Markdown_img/icons/emailRed.png "Email:") : [293852647@mail.ru](293852647@mail.ru)  
+![](Markdown_img/icons/linkedIn.png "LinkedIn:") : [Anzhalika Turlak](https://www.linkedin.com/in/anzhalika-turlak-b3307414a/)  
+>>>>>>> 85a2306716f2576e02cb558440f207800a187d15
 
 
 ### About me
@@ -22,11 +33,19 @@ I believe that my ability to learn and acquire new skills will help me become an
 
 ### Education
 
+<<<<<<< HEAD
 |    Period     | Educational institution | Speciality |  
 | ------------- | :--- | :--- |  
 | `2008-2010`   | Gomel State Road Construction College | banking / Economist |  
 | `2011-2015`   | Belarusian Trade and Economic University of Consumer Cooperatives | Accounting analysis and audit / Economist |  
 | `2017-2019`   | SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL | Information systems software / Software engineer |  
+=======
+|      Period      | Educational institution | Speciality |  
+| :--- | :--- | :--- |  
+| `2008-2010` | Gomel State Road Construction College | banking / Economist |  
+| `2011-2015` | Belarusian Trade and Economic University of Consumer Cooperatives | Accounting analysis and audit / Economist |  
+| `2017-2019` | SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL | Information systems software / Software engineer |  
+>>>>>>> 85a2306716f2576e02cb558440f207800a187d15
 
 ### Skills
    * HTML, CSS (Sass)  
@@ -40,6 +59,7 @@ I believe that my ability to learn and acquire new skills will help me become an
 
 
 ### Courses
+<<<<<<< HEAD
 ![IT-Academy](images/it_academy.png "IT-Academy") IT-Academy
 > 2021 Website development HTML, CSS, base JavaScript
 
@@ -53,6 +73,24 @@ I believe that my ability to learn and acquire new skills will help me become an
 > 2023 Python website development<br>
 
 ![Stepik](images/academy.jpg "Stepik") ![Stepik](images/stepik-certificate1.jpg "Stepik")  ![Stepik](images/stepik-certificate2.jpg "Stepik") ![Stepik](images/Turlak%20Anzhalika.png "Stepik") 
+=======
+![IT-Academy](Markdown_img/icons/it_academy.png "IT-Academy") IT-Academy
+> 2021 Website development HTML, CSS, base JavaScript
+
+![Stepik](Markdown_img/icons/stepik.png "Stepik") Stepik
+> 2022 Generation Python Course for Beginners
+
+![Stepik](Markdown_img/icons/stepik.png "Stepik") Stepik
+> 2023 Python Generation Advanced Course
+
+![IT-Overone](Markdown_img/icons/over_one.png "IT-Overone") IT-Overone
+> 2023 Python website development<br>
+
+![RS school](Markdown_img/icons/rs_school.png "RS school") RS school
+> 2023 JS/FE Pre-School 2023Q2<br>
+
+![Stepik](Markdown_img/icons/academy.jpg "Stepik") ![Stepik](Markdown_img/certificates/stepik-certificate1.jpg "Stepik")  ![Stepik](Markdown_img/certificates/stepik-certificate2.jpg "Stepik") ![Stepik](Markdown_img/certificates/Turlak%20Anzhalika.png "Stepik") ![RS school](Markdown_img/certificates/certificateRS.jpg "RS school") 
+>>>>>>> 85a2306716f2576e02cb558440f207800a187d15
 
 
 ### Languages   
