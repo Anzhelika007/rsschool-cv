@@ -1,0 +1,162 @@
+@media all and (max-width: 770px) {
+    .header {
+        &__top {
+            padding-top: 20px;
+        }
+
+        &__bottom {
+            &-title {
+                white-space: wrap;
+            }
+
+            &-link {
+                left: 50%;
+                transform: translateX(-50%);
+                margin: auto;
+            }
+
+            &-link {
+                padding: clamp(10px, 3vw, 25px) clamp(10px, 3vw, 34px);
+                height: clamp(45px, 12vw, 65px);
+            }
+
+        }
+    }
+
+    .layout-2-column {
+        min-height: calc(100vh - 48px);
+    }
+
+    .about__more-text,
+    .code__text {
+        text-align: justify;
+        flex-basis: 90%;
+    }
+
+    .navigation__burger {
+        display: flex;
+    }
+
+    .header__top-navigation {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        overflow: auto;
+        padding: 50px 40px;
+        background: #000;
+        animation: burger .4s;
+    }
+
+    .navigation__item-link {
+        position: relative;
+        padding-left: 40px;
+        width: 100px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .code-code {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .footer__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        &-social {
+            gap: 20px;
+
+            >* {
+                padding-right: 0;
+            }
+
+        }
+    }
+}
+
+@media all and (max-width: 525px) {
+    .layout-3-column {
+        flex-wrap: wrap;
+
+        >* {
+            flex-basis: 100%;
+            padding: 0px;
+            padding: 10px 0;
+            text-align: center;
+
+
+            >* {
+                border: none;
+            }
+        }
+    }
+
+    .about__more-text {
+        text-align: justify;
+    }
+
+    .about {
+        &__box {
+            margin-bottom: 20px;
+        }
+
+        &__education__title {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+
+            &>* {
+                text-align: center;
+            }
+        }
+    }
+
+    .code-code {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .hire-Me__box {
+        flex-direction: column;
+    }
+
+    .footer__box-social {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        &__top-name {
+            color: black;
+        }
+
+        &__bottom-text {
+            display: none;
+        }
+    }
+}
+
+
+
+
+@media all and (max-width: 370px) {
+    .header {
+        &__bottom-link {
+            max-width: 120px;
+            padding: 10px 7px;
+        }
+    }
+}

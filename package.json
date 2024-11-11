@@ -1,0 +1,18 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "my CV",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anzhalika Turlak",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3"
+  }
+}

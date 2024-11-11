@@ -1,0 +1,31 @@
+@import 'base/reset';
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/placeholders';
+@import 'abstracts/mixins';
+
+// base
+@import 'base/fonts';
+
+@import 'base/body';
+
+
+// components
+@import 'components/buttons';
+
+// layout
+@import 'layout/container';
+@import 'layout/colomns';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/forms';
+@import 'layout/footer';
+
+//pages
+@import 'pages/home';
+//themes
+//vendors
+@import 'layout/media';
+
+//"style": "sass --watch sass/style.scss sass/style.css",
